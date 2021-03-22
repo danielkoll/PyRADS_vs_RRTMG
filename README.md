@@ -1,2 +1,2 @@
-# Compare RRTMG and PyRADS at high temperature.
-# Daniel Koll, March 2021
+Compare RRTMG and PyRADS at high temperature.
+Daniel Koll, March 2021
