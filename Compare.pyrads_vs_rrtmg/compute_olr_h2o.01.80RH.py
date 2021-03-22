@@ -125,12 +125,8 @@ if saveOutput:
         olr_spec_forcing = pyrads.Get_Fluxes.Fplus_alternative(0,g1_forcing) # (spectrally resolved=irradiance)
         olr_forcing = simps(olr_spec_forcing,g1_forcing.n)
 
-        lambda_pyrads = (olr2 - olr1) / dTs
-        forcing_pyrads = (olr_forcing - olr1) / dTs
-
-#         olr1 = np.nan
-#         lambda_pyrads = np.nan
-#         forcing_pyrads = np.nan
+        lambda_pyrads = (olr2 - olr1) / dTs    # [W/m2/K]
+        forcing_pyrads = olr_forcing - olr1    # [W/m2]
 
         print( "\n",Ts,g1.ps/1e5,olr1,forcing_pyrads, "\n" )
 
@@ -155,8 +151,8 @@ if saveOutput:
         olr_rrtm_forcing = Fnet[0]
         
         #
-        lambda_rrtm = (olr_rrtm2 - olr_rrtm1)/dTs
-        forcing_rrtm = (olr_rrtm_forcing - olr_rrtm1)/dTs
+        lambda_rrtm = (olr_rrtm2 - olr_rrtm1)/dTs        # [W/m2/K]
+        forcing_rrtm = olr_rrtm_forcing - olr_rrtm1      # [W/m2]
 
         # ============================
         # ...
