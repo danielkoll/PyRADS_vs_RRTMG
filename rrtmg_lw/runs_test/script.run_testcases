@@ -1,0 +1,18 @@
+#!/bin/tcsh
+# Must set the location of the rrtm executable in the
+# rrtm_prog variable directory below.
+
+set rrtm_prog = ./rrtmg_lw
+
+echo Run example 1
+\cp input_rrtm_MLS-clr INPUT_RRTM
+$rrtm_prog
+\mv OUTPUT_RRTM output_rrtm_MLS-clr
+
+echo RUN example 2
+\cp input_rrtm_SAW-clr INPUT_RRTM
+$rrtm_prog
+\mv OUTPUT_RRTM output_rrtm_SAW-clr
+
+
+echo Finishing Script
