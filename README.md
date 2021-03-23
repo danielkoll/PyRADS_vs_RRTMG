@@ -17,7 +17,7 @@ Run comparison:
 - python make_plots.py
 
 Outputs:
-- !(Compare.pyrads_vs_rrtmg/plot_forcing.pdf)
-- !(Compare.pyrads_vs_rrtmg/plot_feedback.pdf)
-- !(Compare.pyrads_vs_rrtmg/plot_ecs.pdf)
+- ![Forcing](Compare.pyrads_vs_rrtmg/plot_forcing.pdf)
+- ![Feedback](Compare.pyrads_vs_rrtmg/plot_feedback.pdf)
+- ![Estimated climated sensitivity](Compare.pyrads_vs_rrtmg/plot_ecs.pdf)
 
