@@ -21,3 +21,7 @@ Outputs:
 - ![Feedback](Compare.pyrads_vs_rrtmg/plot_feedback.pdf)
 - ![Estimated climated sensitivity](Compare.pyrads_vs_rrtmg/plot_ecs.pdf)
 
+- https://docs.google.com/viewer?url=https://github.com/ddbkoll/PyRADS_vs_RRTMG/blob/main/Compare.pyrads_vs_rrtmg/plot_forcing.pdf
+- https://docs.google.com/viewer?url=https://github.com/ddbkoll/PyRADS_vs_RRTMG/blob/main/Compare.pyrads_vs_rrtmg/plot_feedback.pdf
+- https://docs.google.com/viewer?url=https://github.com/ddbkoll/PyRADS_vs_RRTMG/blob/main/Compare.pyrads_vs_rrtmg/plot_ecs.pdf
+
