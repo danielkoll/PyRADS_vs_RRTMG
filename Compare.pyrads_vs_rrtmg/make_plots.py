@@ -63,11 +63,11 @@ plt.figure()
 #
 plt.plot(Ts,-1*forcing_pyrads,"-",lw=2,label="PyRADS")
 plt.plot(Ts,-1*forcing_rrtmg,"-",lw=2,label="RRTMG")
-#plt.plot(tmp,tmp*0.,"k--")
+plt.plot(tmp,tmp*0.,"k--")
 #
 plt.legend(loc="upper left")
 plt.xlabel("Surface Temperature (K)")
-plt.ylabel("Feedback (W/m$^2$)")
+plt.ylabel("Forcing (W/m$^2$)")
 #plt.ylim([3.5,4.8])
 if saveOutput: plt.savefig("plot_forcing.pdf",format="pdf")
 
