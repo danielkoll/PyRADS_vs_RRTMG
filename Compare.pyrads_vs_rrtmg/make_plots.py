@@ -67,7 +67,7 @@ plt.plot(Ts,-1*forcing_rrtmg,"-",lw=2,label="RRTMG")
 #
 plt.legend(loc="upper left")
 plt.xlabel("Surface Temperature (K)")
-plt.ylabel("Feedback (W/m$^2$/K)")
+plt.ylabel("Feedback (W/m$^2$)")
 #plt.ylim([3.5,4.8])
 if saveOutput: plt.savefig("plot_forcing.pdf",format="pdf")
 
