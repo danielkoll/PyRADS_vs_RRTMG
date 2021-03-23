@@ -17,5 +17,7 @@ Run comparison:
 - python make_plots.py
 
 Outputs:
-![Forcing](Compare.pyrads_vs_rrtmg/plot_forcing.pdf)
+- (Compare.pyrads_vs_rrtmg/plot_forcing.pdf)
+- (Compare.pyrads_vs_rrtmg/plot_feedback.pdf)
+- (Compare.pyrads_vs_rrtmg/plot_ecs.pdf)
 
