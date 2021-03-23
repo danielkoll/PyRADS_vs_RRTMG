@@ -16,3 +16,6 @@ Run comparison:
 - python compute_olr_h2o.01.80RH.py    [this will take a while]
 - python make_plots.py
 
+Outputs:
+![Forcing](Compare.pyrads_vs_rrtmg/plot_forcing.pdf)
+
