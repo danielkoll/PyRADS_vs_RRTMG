@@ -1,6 +1,8 @@
 import numpy
-import phys
 import os,copy,sys
+#import phys
+sys.path.append('../pyrads')
+from pyrads import phys
 
 '''
 A number of utilities to run command-line RRTM with python.
